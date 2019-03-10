@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body{
+	background-color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	overflow-x: hidden;
+}
+.navbar{
+	background-color: white;
+	box-shadow: 1px 1px 1px  1px #cccccc;
+}
+nav{
+	width:110%;
+}
+.sidebarList{
+	width:15%;
+}
+.sidebarList li a{
+	color:#777777;
+}
+.sidebarList li a:hover{
+	color:#333333;
+	width: 100%; 
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  display: inline-block;
+  color: #aaaaaa;
+  padding: 5%;
+  text-decoration: none;
+}
+.sidebar .tab.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #DCDCDC;
+}
+
+div.scrollmenu {
+  background-color: #007975;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #525353;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  	display: none;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .scrollmenu{
+  	display: none;
+  }
+}

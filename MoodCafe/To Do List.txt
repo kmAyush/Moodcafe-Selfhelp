@@ -1,0 +1,3 @@
+Thinks can be worked on :-
+Make specfic no. of video load at once
+sidebar hide on toggle
