@@ -1,9 +1,20 @@
 # Moodcafe-Selfhelp page
+## 'Self help' page of Moodcafe rebuilt  
+---
 
-'Self help' page of Moodcafe rebuilt  
+### Task 
+I was asked to improve upon current selfhelp of [moodcafe](https://moodcafe.in/selfhelp).
 
+### Technology used   
+- [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) for inbuild CSS and Components.
+  - Navigation bar and Column for displaying video thumbnails.
+- Wrote Custom CSS for Sidebar. 
+- Google Font.
+### Demo 
 
-![Screenshot of Page](https://github.com/kmAyush/Moodcafe-Task/blob/master/MoodCafe/Images/Moodcafe_screenshot.png)
+See the working demo of the HTML page [here](https://htmlpreview.github.io/?https://github.com/kmAyush/Moodcafe-Selfhelp/blob/master/MoodCafe/Mood.html).
 
-  ###### Work did        : Built page from scratch, rebuilt the sidebar look and few more minor changes.  
-  ###### Original link   : https://moodcafe.in/selfhelp
+ ### Screenshot  
+
+<img src="https://github.com/kmAyush/Moodcafe-Task/blob/master/MoodCafe/Images/Moodcafe_screenshot.png" width="95%">
+
