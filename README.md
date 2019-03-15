@@ -1,6 +1,5 @@
 # Moodcafe-Selfhelp page
 ## 'Self help' page of Moodcafe rebuilt  
----
 
 ### Task 
 I was asked to improve upon current selfhelp of [moodcafe](https://moodcafe.in/selfhelp).
